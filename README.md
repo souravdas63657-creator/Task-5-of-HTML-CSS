@@ -1,2 +1,2 @@
 # Task-5-of-HTML-CSS
-Assignment of HTML CSS to Create a Page without using Flex and grid 
+Assignment of HTML CSS to create a Page without using Flex and Grid 
