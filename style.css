@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    position: fixed;
+    top: 10px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    display: inline;
+}
+
+.logo {
+    position: absolute;
+    left: 100px;
+    font-weight: bold;
+    color: rgb(98, 97, 97);
+    font-size: large;
+}
+div>a {
+    text-decoration: none;
+    color: #3e7eff;
+}
+.username {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    padding: 0 30px;
+    background-color: #e9edf6;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.navli {
+    list-style: none;
+}
+ul>li {
+    display: inline;
+    margin-inline-start: 10px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: rgb(98, 97, 97);
+
+}
+main {
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 20vh;
+    
+    line-height: 40px;
+}
+img {
+    position: relative;
+    left: 60%;
+}
+
+.left-div {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    line-height: 50px;
+    font-size: larger;
+}
+.div-1 {
+    display: inline-block;
+    overflow: auto;
+    height: 20h;
+    width: 22vw;
+    
+    
+}
+#highlight {
+    color: #3e7eff;
+}
+
+.para {
+    position: absolute;
+    overflow: auto;
+    top: 21vh;
+    height: 10h;
+    width: 35vw;
+    line-height: 29px;
+    color: rgb(98, 97, 97);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+button{
+    position: absolute;
+    top: 43vh;
+    left: 248px;
+    padding: 30px 70px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #3e7eff;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
